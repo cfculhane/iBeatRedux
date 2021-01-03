@@ -1,0 +1,47 @@
+#9	FilePathSetting	
+	ServiceDataPath		
+	ErrorLogName		
+#9	LanguageSetting		
+	Language	English	
+#9	CommunicationSetting	
+	Port	1	KLINE	
+	Settings	19200	n	8	1	1	0	
+#9	LargeSetting	
+	g_rev.dat	g_tps.dat	g_bat.dat	g_gear.dat	g_egt.dat	g_at.dat	g_iprs.dat	g_aprs.dat	g_ig.timing_ang	g_inj.avail_tim			
+#9	ChartSetting	
+	CHART_MODE	OverLay			
+	g_rev.dat	ON	16000	0	
+	g_bat.dat	ON	20	0	
+	g_ig.timing_ang	ON	50	-25	
+	g_inj.avail_tim	ON	20000	0	
+	g_tps.dat	ON	100	0	
+	g_at.dat	ON	150	-50	
+	g_egt.dat	ON	150	-50	
+	g_iprs.dat	ON	120	0	
+	g_aprs.dat	ON	120	0	
+	g_gear.dat	ON	255	0	
+		OFF	65535	0	
+		OFF	255	0	
+#9	DashBoardSetting	
+	g_rev.dat	RPM	16000	0	
+	g_tps.dat	%	100	0	
+	g_bat.dat	V	20	0	
+	g_gear.dat	POS	255	0	
+	g_egt.dat	degC	150	-50	
+	g_at.dat	degC	150	-50	
+	g_iprs.dat	kPa	120	0	
+	g_aprs.dat	kPa	120	0	
+	g_ig.timing_ang	degCA	50	-25	
+	g_inj.avail_tim	us	20000	0	
+#9	UseUnitSetting	
+	Temperature	degC	
+	Pressure	kPa	
+#9	UnitConversion	
+	Length						
+	Weights				
+	Volume				
+	Temperature			
+	Pressure					
+#9	CoAdjustSetting	
+	Step	1	
+#
